@@ -1,0 +1,131 @@
+.main-div {
+    background-image: linear-gradient(to right, rgb(158, 64, 84), yellow);
+    height:374px;
+    width:160px;
+    margin-left: -8px;
+    margin-top: -8px;
+    z-index: 1;
+}
+.second-div {
+    width: 150px;
+    height: 190px;
+    background: rgba(255, 255, 255, 0.56);
+    border-radius: 10px;
+    position:relative; top: 5px; left: 5px;
+}
+.img-1 {
+    height: 100px;
+    width: 100px;
+    position: relative; left: 25px; top: 3px;
+}
+.h2-1 {
+    text-align: center;
+    font-size: medium;
+    font-weight: normal;
+    font-family: arial;
+}
+.paragraph1 {
+    font-size: 10px;
+    font-family: arial;
+    font-weight: normal;
+    text-align: center;
+}
+.button-1 {
+    position: absolute; left: 5px; top: 174px;
+    background-image: linear-gradient(to right, rgb(158, 64, 84),orange);
+    border:none;
+    color: white;
+    border-radius: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-size: 10px;
+    cursor:pointer;
+    transition: opacity 0.2s;
+}
+.button-1:hover{
+    opacity: 0.7;
+}
+.button-1:active {
+    opacity: 0.5;
+    border:1.5px solid red;
+    position:absolute;
+    left: 3.5px;
+    top: 172.5px;
+}
+.main-div-2 {
+position:relative; left: 152px; top: -374px;
+width: 166px;
+height: 374px;
+background-color: black;
+background-image: url(/EVERYTHING/Exercises/slike/grass4.jpg);
+background-size:cover;
+}
+.second-div-2 {
+width: 150px;
+height: 190px;
+position: relative;left: 8px; top: 5px;
+background-color: rgba(255, 255, 255, 0.56);
+border:none;
+border-radius: 10px;
+}
+.img-2 {
+    height: 80px;
+    width: 80px;
+    position: absolute; left: 37%; top: 37%;
+    transform: translate(-33%,-62%);
+    border:15px solid black;
+    border-image: url(/EVERYTHING/Exercises/slike/obsidianborder2..png)  33% round;   
+    z-index: 1;
+}
+#parent {
+    position:relative; left: 0px; top: 0px;
+}
+.img-2-2 {
+    opacity: 0.26;
+    z-index: 5;
+    width: 81px;
+    height: 81px;
+    position: relative; top:17px; left: 34px;
+}
+.h2-2 {
+    font-family: 'Minecraft', sans-serif;
+    margin-top: 32px;
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+}
+.p2-2 {
+    font-family:'Minecraft', sans-serif;
+    font-size: small;
+    font-style: normal;
+    text-align: center;
+    font-size: 8px;
+    position:absolute; top: 138px;
+    left: 20px;
+}
+.button-1-2 {
+    position:absolute; 
+    left: 41px;
+    top: 167px;
+    background-size: cover;
+    border:none;
+    font-family: 'Minecraft', sans-serif;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right:10px;
+    padding-bottom: 3px;
+    cursor:pointer;
+    box-shadow: 3px 3px  0px rgba(0,0,0,0.5);
+    background-image: url(https://i.pinimg.com/originals/c1/26/4b/c1264b2eefbbab5272330b4e6a7343b4.png);
+}
+.button-1-2:active {
+    position: absolute;
+    left: 43px;
+    top: 170px;
+    box-shadow: none;
+}
+.w3approved {
+    position:absolute;
+    left: 2px;
+    top: 335px
+}
